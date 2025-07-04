@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const def_alt = "Zhilu Tang",
+const def_alt = "Vivian Wang",
   def_width = 300,
   def_height = 200;
 const img_quality = 50;

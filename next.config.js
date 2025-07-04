@@ -24,8 +24,8 @@ const nextConfig = {
       "/about": { page: "/about" },
     };
   },
-  basePath: ghPages ? "/zhilu-tang.github.io/" : "",
-  assetPrefix: ghPages ? "/zhilu-tang.github.io/" : "",
+  basePath: ghPages ? "/helloparrotking.github.io/" : "",
+  assetPrefix: ghPages ? "/helloparrotking.github.io/" : "",
 };
 
 module.exports = withPlugins(
@@ -63,8 +63,8 @@ const nextConfig = {
 			'/about': { page: '/about' },
 		}
 	},
-	basePath: ghPages? '/zhilu-tang.github.io/' : '',
-	assetPrefix: ghPages ? '/zhilu-tang.github.io/' : '',
+	basePath: ghPages? '/helloparrotking.github.io/' : '',
+	assetPrefix: ghPages ? '/helloparrotking.github.io/' : '',
 }
 
 module.exports = withPlugins([

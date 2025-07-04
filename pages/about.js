@@ -342,9 +342,9 @@ const styles = `
 
 `;
 
-const home_page_url = "https://zhilu-tang.github.io/";
+const home_page_url = "https://helloparrotking.github.io/";
 const description =
-  "I'm Zhilu Tang working as Software Engineer in Bengaluru, India.";
+  "I'm Vivian Wang working as Software Engineer in Bengaluru, India.";
 
 export default function About_Page(props) {
   return (
@@ -353,11 +353,11 @@ export default function About_Page(props) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content={description} />
-        <meta name="author" content="Zhilu Tang" />
+        <meta name="author" content="Vivian Wang" />
 
         <meta
           property="og:title"
-          content={"About - Zhilu Tang"}
+          content={"About - Vivian Wang"}
           key="ogtitle"
         />
         <meta property="og:description" content={description} key="ogdesc" />
@@ -375,14 +375,14 @@ export default function About_Page(props) {
         />
         <meta
           property="og:site_name"
-          content={"Zhilu Tang"}
+          content={"Vivian Wang"}
           key="ogsitename"
         />
 
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content={"About - Zhilu Tang"}
+          content={"About - Vivian Wang"}
         />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:url" content={home_page_url + "about"} />
@@ -396,10 +396,10 @@ export default function About_Page(props) {
         <link rel="icon" href="/images/santha-lakshmi-narayana-logo.png?" />
         <link
           rel="canonical"
-          href="https://zhilu-tang.github.io/about"
+          href="https://helloparrotking.github.io/about"
         />
 
-        <title>{"About - Zhilu Tang"}</title>
+        <title>{"About - Vivian Wang"}</title>
 
         <style type="text/css">{styles}</style>
       </Head>
@@ -429,7 +429,7 @@ export default function About_Page(props) {
             />
             <div className="about-meta-icon-container">
               <MdEmail className="about-meta-icon" />
-              <p className="about-meta-info">zhilu.tang@gmail.com</p>
+              <p className="about-meta-info">parrotking@88@gmail.com</p>
             </div>
             <div className="about-meta-icon-container">
               <MdLocationOn className="about-meta-icon" />
@@ -439,7 +439,7 @@ export default function About_Page(props) {
           <div className="about-info">
             <p className="about-heading">#Don't study but learn</p>
             <p className="about-info-description">
-              Hello, I'm <b>Zhilu Tang</b>, Senior Software
+              Hello, I'm <b>Vivian Wang</b>, Senior Software
               Engineer previously at Alibaba in Hangzhou, China.
             </p>
 
@@ -468,7 +468,7 @@ export default function About_Page(props) {
           <div className="portfolio-section-container">
             <p className="portfolio-section-heading">Experience</p>
 
-            <div className="organization-container">
+            {/* <div className="organization-container">
               <div className="organization-info-container">
                 <img
                   className="organization-logo"
@@ -523,7 +523,7 @@ export default function About_Page(props) {
                 </div>
               </div>
 
-            </div>
+            </div> */}
           </div>
 
           <div

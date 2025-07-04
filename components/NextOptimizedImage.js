@@ -1,7 +1,7 @@
 const alt_delim = ":=:",
   text_arr_delim = "^^^",
   text_delim = "$$$";
-const def_alt = "Zhilu Tang",
+const def_alt = "Vivian Wang",
   def_width = "100%",
   def_margin = "0%",
   def_text_arr = [];

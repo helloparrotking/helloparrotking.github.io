@@ -14,7 +14,7 @@ const c1 = "#071013",
 
 const quote = c5;
 
-const home_page_url = "https://zhilu-tang.github.io/";
+const home_page_url = "https://helloparrotking.github.io/";
 
 export default function Tags({ postsMetaData, tagName }) {
   return (
@@ -23,11 +23,11 @@ export default function Tags({ postsMetaData, tagName }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content={"Posts about " + tagName} />
-        <meta name="author" content="Zhilu Tang" />
+        <meta name="author" content="Vivian Wang" />
 
         <meta
           property="og:title"
-          content={"Zhilu Tang"}
+          content={"Vivian Wang"}
           key="ogtitle"
         />
         <meta
@@ -53,12 +53,12 @@ export default function Tags({ postsMetaData, tagName }) {
         />
         <meta
           property="og:site_name"
-          content={"Zhilu Tang"}
+          content={"Vivian Wang"}
           key="ogsitename"
         />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={"Zhilu Tang"} />
+        <meta name="twitter:title" content={"Vivian Wang"} />
         <meta name="twitter:description" content={"Posts about " + tagName} />
         <meta name="twitter:url" content={home_page_url + "tags/" + tagName} />
         <meta name="twitter:site" content="@santhalakshminarayana" />
@@ -71,7 +71,7 @@ export default function Tags({ postsMetaData, tagName }) {
         <link rel="icon" href="/images/santha-lakshmi-narayana-logo.png?" />
         <link rel="canonical" href={home_page_url + "tags/" + tagName} />
 
-        <title>{"Zhilu Tang"}</title>
+        <title>{"Vivian Wang"}</title>
       </Head>
 
       <Header />

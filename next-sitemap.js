@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: "https://zhilu-tang.github.io",
+  siteUrl: "https://helloparrotking.github.io",
   exclude: ["/tags/*"],
   generateRobotsTxt: true,
 };

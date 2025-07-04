@@ -262,7 +262,7 @@ const components = {
   },
 };
 
-const home_page_url = "https://zhilu-tang.github.io/";
+const home_page_url = "https://helloparrotking.github.io/";
 
 export default function Blog({ postMetadata, postContent }) {
   return (
@@ -271,12 +271,12 @@ export default function Blog({ postMetadata, postContent }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content={postMetadata.description} />
-        <meta name="author" content="Zhilu Tang" />
+        <meta name="author" content="Vivian Wang" />
         <meta name="keywords" content={postMetadata.keywords.join(",")} />
 
         <meta
           property="og:title"
-          content={postMetadata.title + "- Zhilu Tang"}
+          content={postMetadata.title + "- Vivian Wang"}
           key="ogtitle"
         />
         <meta
@@ -302,14 +302,14 @@ export default function Blog({ postMetadata, postContent }) {
         />
         <meta
           property="og:site_name"
-          content={"Zhilu Tang"}
+          content={"Vivian Wang"}
           key="ogsitename"
         />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content={postMetadata.title + "- Zhilu Tang"}
+          content={postMetadata.title + "- Vivian Wang"}
         />
         <meta name="twitter:description" content={postMetadata.description} />
         <meta
@@ -329,7 +329,7 @@ export default function Blog({ postMetadata, postContent }) {
           href={home_page_url + "blog/" + postMetadata.id}
         />
 
-        <title>{postMetadata.title + "- Zhilu Tang"}</title>
+        <title>{postMetadata.title + "- Vivian Wang"}</title>
 
         <link
           rel="stylesheet"

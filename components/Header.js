@@ -43,7 +43,7 @@ export default function Header(props) {
           </Link>
           <Link href="/">
             <a id="name">
-              <b>Zhilu Tang</b>
+              <b>Vivian Wang</b>
             </a>
           </Link>
         </div>

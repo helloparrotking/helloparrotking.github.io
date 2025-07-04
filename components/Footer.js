@@ -113,7 +113,7 @@ export default function Footer(props) {
           {props.github == true ? (
             <div className="link-item">
               <a
-                href="https://github.com/zhilu-tang"
+                href="https://github.com/helloparrotking"
                 className="link"
                 rel="noreferrer"
                 target=" _blank"
@@ -130,7 +130,7 @@ export default function Footer(props) {
           {props.linkedin == true ? (
             <div className="link-item">
               <a
-                href="https://www.linkedin.com/in/zhilu-tang-97b1b92b/"
+                href="https://www.linkedin.com/in/yingwu-wang-120a1856"
                 className="link"
                 rel="noreferrer"
                 target="_blank"
@@ -182,7 +182,7 @@ export default function Footer(props) {
 
       {props.need_copy_right == true ? (
         <div className="copy-right-container">
-          <p className="copy-right-text">Zhilu Tang &#169; 2025</p>
+          <p className="copy-right-text">Vivian Wang &#169; 2025</p>
         </div>
       ) : null}
 

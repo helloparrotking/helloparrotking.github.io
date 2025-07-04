@@ -62,7 +62,7 @@ const styles = `
   }
 `;
 
-const home_page_url = "https://zhilu-tang.github.io/";
+const home_page_url = "https://helloparrotking.github.io/";
 const description = "Contact me here";
 
 export default function Contact_Page(props) {
@@ -72,8 +72,8 @@ export default function Contact_Page(props) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content={description} />
-        <meta name="author" content="Zhilu Tang" />
-        <link rel="icon" href="/images/Zhilu Tang logo.png?" />
+        <meta name="author" content="Vivian Wang" />
+        <link rel="icon" href="/images/Vivian Wang logo.png?" />
 
         <meta property="og:title" content={"About"} key="ogtitle" />
         <meta property="og:description" content={description} key="ogdesc" />
@@ -91,12 +91,12 @@ export default function Contact_Page(props) {
         />
         <meta
           property="og:site_name"
-          content={"Zhilu Tang"}
+          content={"Vivian Wang"}
           key="ogsitename"
         />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={"Zhilu Tang"} />
+        <meta name="twitter:title" content={"Vivian Wang"} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:url" content={home_page_url + "about"} />
         <meta name="twitter:site" content="@santhalakshminarayana" />

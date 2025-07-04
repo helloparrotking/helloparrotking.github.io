@@ -18,9 +18,9 @@ const header_background = c4,
   greetings_statement = c6,
   quote_color = c5;
 
-const home_page_url = "https://zhilu-tang.github.io/";
+const home_page_url = "https://helloparrotking.github.io/";
 const description =
-  "I'm Zhilu Tang, a voyager on mission exploring digital universe to understand how it works.";
+  "I'm Vivian Wang, a voyager on mission exploring digital universe to understand how it works.";
 
 export default function Home({ postsMetaData }) {
   return (
@@ -29,19 +29,19 @@ export default function Home({ postsMetaData }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content={description} />
-        <meta name="author" content="Zhilu Tang" />
+        <meta name="author" content="Vivian Wang" />
         <meta name="keywords" content={"Blog,Tutorial,Python,Javascript"} />
 
         <meta
           property="og:title"
-          content={"Zhilu Tang"}
+          content={"Vivian Wang"}
           key="ogtitle"
         />
         <meta property="og:description" content={description} key="ogdesc" />
         <meta property="og:url" content={home_page_url} key="ogurl" />
         <meta
           property="og:image"
-          content={home_page_url + "images/Zhilu Tang logo.png"}
+          content={home_page_url + "images/Vivian Wang logo.png"}
           key="ogimage"
         />
         <meta property="og:type" content="article" />
@@ -52,29 +52,29 @@ export default function Home({ postsMetaData }) {
         />
         <meta
           property="og:site_name"
-          content={"Zhilu Tang"}
+          content={"Vivian Wang"}
           key="ogsitename"
         />
 
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content={"Zhilu Tang"} />
+        <meta name="twitter:title" content={"Vivian Wang"} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:url" content={home_page_url} />
         <meta name="twitter:site" content="@santhalakshminarayana" />
         <meta
           name="twitter:image"
-          content={home_page_url + "images/Zhilu Tang logo.png"}
+          content={home_page_url + "images/Vivian Wang logo.png"}
         />
         <meta name="twitter:creator" content="@santhalakshminarayana" />
 
         <link rel="icon" href="/images/santha-lakshmi-narayana-logo.png?" />
-        <link rel="canonical" href="https://zhilu-tang.github.io/" />
+        <link rel="canonical" href="https://helloparrotking.github.io/" />
         <meta
           name="google-site-verification"
           content="3p5W6wHr-TDhnkyuewv0nYJd2S9OuTQlj5__OUyLLcU"
         />
 
-        <title>{"Zhilu Tang"}</title>
+        <title>{"Vivian Wang"}</title>
       </Head>
 
       <div>
@@ -86,7 +86,7 @@ export default function Home({ postsMetaData }) {
               Greetings, Programs! in the Matrix called Earth.
             </p>
             <p className="greetings-statement">
-              I'm Zhilu Tang, a voyager on a mission to explore the
+              I'm Vivian Wang, a voyager on a mission to explore the
               digital universe.
             </p>
           </div>
