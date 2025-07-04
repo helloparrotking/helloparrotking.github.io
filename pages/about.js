@@ -364,7 +364,7 @@ export default function About_Page(props) {
         <meta property="og:url" content={home_page_url + "about"} key="ogurl" />
         <meta
           property="og:image"
-          content={home_page_url + "images/ryan-tang.jpeg"}
+          content={home_page_url + "images/parrotking.png"}
           key="ogimage"
         />
         <meta property="og:type" content="article" />
@@ -389,7 +389,7 @@ export default function About_Page(props) {
         <meta name="twitter:site" content="@santhalakshminarayana" />
         <meta
           name="twitter:image"
-          content={home_page_url + "images/ryan-tang.jpeg"}
+          content={home_page_url + "images/parrotking.png"}
         />
         <meta name="twitter:creator" content="@santhalakshminarayana" />
 
@@ -411,7 +411,7 @@ export default function About_Page(props) {
           <div className="about-meta">
             <img
               className="display-img"
-              src="/images/about/ryan-tang.jpeg"
+              src="/images/about/parrotking.png"
               alt="Lakshmi Narayana Santha"
             />
             <Footer
